@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Movie Reviews Finder",
+  "version": "1.0",
+  "description": "Get movie ratings from Google, IMDb, and Rotten Tomatoes on selecting a movie name.",
+  "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Movie Reviews"
+  }
+}

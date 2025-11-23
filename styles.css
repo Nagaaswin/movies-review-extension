@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 300px;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.4em;
+}
+
+#ratings p {
+    margin: 0.5em 0;
+}
